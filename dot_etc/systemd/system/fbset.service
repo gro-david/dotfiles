@@ -1,0 +1,14 @@
+[Unit]
+Description=Framebuffer resolution
+Before=display-manager.service
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/bin/fbset -xres 1920 -yres 1200 -match --all
+RemainAfterExit=yes
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
