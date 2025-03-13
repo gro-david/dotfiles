@@ -1,0 +1,8 @@
+[warning]	2025-02-21 19:17:41.028765[Thread 0x000071c4287bbc80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 19:17:41.028834[Thread 0x000071c4287bbc80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 19:17:41.028847[Thread 0x000071c4287bbc80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-02-21 19:17:41.819546[Thread 0x000071c4287bbc80]:Unable to open the file/home/macisajt/Downloads/1U Home(1).3mf
+[warning]	2025-02-21 19:17:42.104154[Thread 0x000071c4287bbc80]:19:17:42: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 19:17:42.107638[Thread 0x000071c4287bbc80]:19:17:42: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 19:17:42.109303[Thread 0x000071c4287bbc80]:19:17:42: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 19:17:42.140400[Thread 0x000071c4287bbc80]:19:17:42: Warning: Error running JavaScript: Unsupported result type

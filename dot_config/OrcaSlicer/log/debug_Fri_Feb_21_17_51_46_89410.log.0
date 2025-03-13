@@ -1,0 +1,12 @@
+[warning]	2025-02-21 17:51:46.331201[Thread 0x00007220a885ec80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 17:51:46.331307[Thread 0x00007220a885ec80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 17:51:46.331332[Thread 0x00007220a885ec80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[warning]	2025-02-21 17:51:47.488904[Thread 0x00007220a885ec80]:17:51:47: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 17:51:47.493130[Thread 0x00007220a885ec80]:17:51:47: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 17:51:47.494372[Thread 0x00007220a885ec80]:17:51:47: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 17:51:47.522165[Thread 0x00007220a885ec80]:17:51:47: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 17:51:48.918513[Thread 0x0000720ec1bc26c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download
+[warning]	2025-02-21 17:51:55.278512[Thread 0x00007220a885ec80]:17:51:55: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 18:02:02.835025[Thread 0x00007220a885ec80]:File Metadata/plate_1.png not found from archive
+[warning]	2025-02-21 18:02:39.345150[Thread 0x0000720f977fe6c0]:Arrange full params: {"min_obj_distance":0,"accuracy":1.000000,"parallel":1,"allow_rotations":1,"do_final_align":1,"allow_multi_materials_on_same_plate":1,"avoid_extrusion_cali_region":0,"is_seq_print":0,"bed_shrink_x":1.000000,"bed_shrink_y":1.000000,"brim_skirt_distance":0.000000,"clearance_height_to_rod":34.000000,"clearance_height_to_lid":90.000000,"clearance_radius":57.000000,"printable_height":250.000000,
+[error]	2025-02-21 18:03:12.294229[Thread 0x0000722090bfe6c0]:print_job: send ok.

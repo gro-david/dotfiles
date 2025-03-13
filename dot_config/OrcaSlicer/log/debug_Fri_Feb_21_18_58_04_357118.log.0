@@ -1,0 +1,10 @@
+[warning]	2025-02-21 18:58:05.014541[Thread 0x00007096dcf8bc80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 18:58:05.014596[Thread 0x00007096dcf8bc80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 18:58:05.014608[Thread 0x00007096dcf8bc80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-02-21 18:58:05.651269[Thread 0x00007096dcf8bc80]:Unable to open the file/home/macisajt/Downloads/1U Home(1).3mf
+[warning]	2025-02-21 18:58:05.864222[Thread 0x00007096dcf8bc80]:18:58:05: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:58:05.868717[Thread 0x00007096dcf8bc80]:18:58:05: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:58:05.870071[Thread 0x00007096dcf8bc80]:18:58:05: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:58:05.891811[Thread 0x00007096dcf8bc80]:18:58:05: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 18:58:06.838236[Thread 0x00007096dcf8bc80]:connect_server error: network_agent=0x5aee97d68750, ret=-2
+[warning]	2025-02-21 18:58:07.157536[Thread 0x00007096befff6c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download

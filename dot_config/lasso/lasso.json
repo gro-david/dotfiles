@@ -1,0 +1,27 @@
+{
+  "app_dirs": [],
+  "apps": [
+    { "env_path": "", "exec": "qutebrowser", "name": "qutebrowser" },
+    { "env_path": "", "exec": "alacritty -e fish -c ' wal -Rqn; nvim'", "name": "nvim" },
+    { "env_path": "", "exec": "alacritty -e fish -c 'wal -Rqn; ranger'", "name": "ranger" },
+    { "env_path": "", "exec": "spotify", "name": "Spotify" },
+    { "env_path": "", "exec": "zen-browser", "name": "Zen Browser" },
+    { "env_path": "", "exec": "godot", "name": "Godot Engine" },
+    { "env_path": "", "exec": "zeditor", "name": "Zed Editor" },
+    { "env_path": "", "exec": "orca-slicer", "name": "Orca Slicer" },
+    { "env_path": "", "exec": "waydroid app launch com.mojang.minecraftedu", "name": "Minecraft Education" },
+    { "env_path": "", "exec": "mcreator", "name": "MCreator" }
+  ],
+  "dashboard": [
+    { "env_path": "", "exec": "reboot", "name": "Reboot" },
+    { "env_path": "", "exec": "shutdown now", "name": "Shutdown" },
+    { "env_path": "", "exec": "systemctl suspend", "name": "Suspend" },
+    {
+      "env_path": "",
+      "exec": "lasso-bluetooth",
+      "name": "Bluetooth Management"
+    },
+    { "env_path": "", "exec": "lasso-network", "name": "Network Management" },
+    { "env_path": "", "exec": "htop", "name": "System Monitor" }
+  ]
+}

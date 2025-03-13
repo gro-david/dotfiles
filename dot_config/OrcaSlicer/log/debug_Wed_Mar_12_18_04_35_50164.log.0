@@ -1,0 +1,14 @@
+[warning]	2025-03-12 18:04:35.558182[Thread 0x0000720580676c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-03-12 18:04:35.558326[Thread 0x0000720580676c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-03-12 18:04:35.558342[Thread 0x0000720580676c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-03-12 18:04:36.961446[Thread 0x00007204d07fe6c0]:Unable to open the file/home/macisajt/Downloads/1U Home(1).3mf
+[warning]	2025-03-12 18:04:37.237788[Thread 0x0000720580676c80]:18:04:37: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-12 18:04:37.249617[Thread 0x0000720580676c80]:18:04:37: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-12 18:04:37.250889[Thread 0x0000720580676c80]:18:04:37: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-12 18:04:37.284511[Thread 0x0000720580676c80]:18:04:37: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-03-12 18:04:38.514194[Thread 0x0000720580676c80]:connect_server error: network_agent=0x56e699557f00, ret=-2
+[warning]	2025-03-12 18:04:38.791195[Thread 0x0000720403fff6c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download
+[error]	2025-03-12 18:14:28.383068[Thread 0x0000720580676c80]:[WARNING]: the parent path /tmp/calib is not there, create it!
+[error]	2025-03-12 18:14:42.330618[Thread 0x00007202c4ffd6c0]:print_job: send ok.
+[error]	2025-03-12 18:26:24.045637[Thread 0x00007204d0fff6c0]:print_job: send ok.
+[error]	2025-03-12 19:02:52.299388[Thread 0x00007204c0ffd6c0]:print_job: send ok.

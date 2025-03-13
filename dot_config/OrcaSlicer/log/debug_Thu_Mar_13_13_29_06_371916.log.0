@@ -1,0 +1,13 @@
+[warning]	2025-03-13 13:29:06.283218[Thread 0x0000700998ff9c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-03-13 13:29:06.283316[Thread 0x0000700998ff9c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-03-13 13:29:06.283336[Thread 0x0000700998ff9c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-03-13 13:29:07.413175[Thread 0x000070096d7ff6c0]:Unable to open the file/home/macisajt/Downloads/1U Home(1).3mf
+[warning]	2025-03-13 13:29:07.749153[Thread 0x0000700998ff9c80]:13:29:07: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-13 13:29:07.756456[Thread 0x0000700998ff9c80]:13:29:07: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-13 13:29:07.759179[Thread 0x0000700998ff9c80]:13:29:07: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-03-13 13:29:07.832824[Thread 0x0000700998ff9c80]:13:29:07: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-03-13 13:29:09.135066[Thread 0x0000700998ff9c80]:connect_server error: network_agent=0x5859ee877a70, ret=-2
+[error]	2025-03-13 13:29:10.134434[Thread 0x00007008068656c0]:Error getting: `check_new_version_sf`: HTTP 0, curl:Timeout was reached:
+Operation timed out after 1000 milliseconds with 0 out of 0 bytes received
+[Error 28]
+[warning]	2025-03-13 13:29:10.939863[Thread 0x00007008108576c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download

@@ -1,0 +1,9 @@
+[warning]	2025-02-21 06:59:23.642829[Thread 0x000076eda07c8c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 06:59:23.642907[Thread 0x000076eda07c8c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 06:59:23.642919[Thread 0x000076eda07c8c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[warning]	2025-02-21 06:59:24.528848[Thread 0x000076eda07c8c80]:06:59:24: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:59:24.531080[Thread 0x000076eda07c8c80]:06:59:24: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:59:24.532536[Thread 0x000076eda07c8c80]:06:59:24: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:59:24.556446[Thread 0x000076eda07c8c80]:06:59:24: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:59:25.947507[Thread 0x000076ec89ffb6c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download
+[warning]	2025-02-21 06:59:27.893500[Thread 0x000076eda07c8c80]:06:59:27: Warning: Error running JavaScript: Unsupported result type

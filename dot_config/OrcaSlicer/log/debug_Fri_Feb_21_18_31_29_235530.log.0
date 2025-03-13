@@ -1,0 +1,38 @@
+[warning]	2025-02-21 18:31:29.962509[Thread 0x000074e97eaf1c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 18:31:29.962570[Thread 0x000074e97eaf1c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 18:31:29.962582[Thread 0x000074e97eaf1c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-02-21 18:31:30.289324[Thread 0x000074e7baffd6c0]:Not primary owner of DBus name - probably another OrcaSlicer instance is running.
+[error]	2025-02-21 18:31:30.289349[Thread 0x000074e7baffd6c0]:Dbus Messages listening terminating.
+[warning]	2025-02-21 18:31:30.821734[Thread 0x000074e97eaf1c80]:18:31:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:31:30.824014[Thread 0x000074e97eaf1c80]:18:31:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:31:30.825241[Thread 0x000074e97eaf1c80]:18:31:30: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:31:30.846516[Thread 0x000074e97eaf1c80]:18:31:30: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 18:31:31.829294[Thread 0x000074e97eaf1c80]:connect_server error: network_agent=0x6044f782cd10, ret=-2
+[warning]	2025-02-21 18:31:32.102092[Thread 0x000074e7937fe6c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download
+[error]	2025-02-21 18:31:44.374551[Thread 0x000074e8387f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:31:44.374619[Thread 0x000074e77bbf66c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:31:44.374922[Thread 0x000074e7d87f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:31:44.375070[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:31:44.415885[Thread 0x000074e8697fe6c0]:gcode path conflicts found between 1U Home and 1U Home
+[warning]	2025-02-21 18:32:14.411808[Thread 0x000074e869fff6c0]:Arrange full params: {"min_obj_distance":0,"accuracy":1.000000,"parallel":1,"allow_rotations":1,"do_final_align":1,"allow_multi_materials_on_same_plate":1,"avoid_extrusion_cali_region":0,"is_seq_print":0,"bed_shrink_x":1.000000,"bed_shrink_y":1.000000,"brim_skirt_distance":0.000000,"clearance_height_to_rod":34.000000,"clearance_height_to_lid":90.000000,"clearance_radius":57.000000,"printable_height":250.000000,
+[error]	2025-02-21 18:32:21.684792[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:21.684819[Thread 0x000074e8305f96c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:21.684980[Thread 0x000074e7d87f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:21.685021[Thread 0x000074e77bbf66c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:54.197050[Thread 0x000074e7ac7f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:54.197248[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:32:54.197794[Thread 0x000074e77a7f46c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:03.343242[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:15.752097[Thread 0x000074e7ac7f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:15.752712[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:20.742702[Thread 0x000074e77cff96c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:20.743410[Thread 0x000074e8305f96c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:20.743412[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:26.265481[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:26.266268[Thread 0x000074e7f87f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:39.371560[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:39.371680[Thread 0x000074e7ac7f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:39.372474[Thread 0x000074e779ff36c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:59.822274[Thread 0x000074e8697fe6c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:33:59.822948[Thread 0x000074e8387f86c0]:Had to calculate Placeable Areas at radius 0 and layer 0, but precalculate was called. Performance may suffer!
+[error]	2025-02-21 18:34:27.961774[Thread 0x000074e793fff6c0]:print_job: send ok.

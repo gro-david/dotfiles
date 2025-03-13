@@ -1,0 +1,14 @@
+{
+    "bottom_surface_pattern": "zig-zag",
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @BBL A1",
+    "layer_height": "0.1",
+    "name": "0.20mm Standard @BBL A1 - Copy",
+    "print_settings_id": "0.20mm Standard @BBL A1 - Copy",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "concentric",
+    "support_type": "tree(auto)",
+    "top_surface_pattern": "zig-zag",
+    "version": "1.10.0.26"
+}

@@ -1,0 +1,17 @@
+[warning]	2025-02-21 06:50:08.113746[Thread 0x0000787db1c8dc80]:Failed to load to hints.cereal. File does not exists. /home/macisajt/.config/OrcaSlicer/user/hints.cereal
+[error]	2025-02-21 06:50:09.399168[Thread 0x0000787db1c8dc80]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2025-02-21 06:50:09.572296[Thread 0x0000787db1c8dc80]:06:50:09: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:50:09.575735[Thread 0x0000787db1c8dc80]:06:50:09: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:50:09.591809[Thread 0x0000787db1c8dc80]:06:50:09: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:50:09.597723[Thread 0x0000787db1c8dc80]:06:50:09: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 06:50:10.900570[Thread 0x0000787db1c8dc80]:calc_exclude_triangles:Unable to create exclude triangles
+[error]	2025-02-21 06:50:10.999286[Thread 0x0000787db1c8dc80]:LoadProfileFamily: parse /opt/orca-slicer/resources/profiles/Elegoo.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2025-02-21 06:50:11.044099[Thread 0x0000787db1c8dc80]:LoadProfileFamily: parse /opt/orca-slicer/resources/profiles/Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2025-02-21 06:50:11.045622[Thread 0x0000787db1c8dc80]:LoadProfileFamily: parse /opt/orca-slicer/resources/profiles/Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[warning]	2025-02-21 06:50:11.223415[Thread 0x0000787db1c8dc80]:06:50:11: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 06:51:20.850355[Thread 0x0000787db1c8dc80]:get_version, get_version not supported,return 00.00.00.00!
+[error]	2025-02-21 06:51:21.541533[Thread 0x0000787cac7f86c0]:[install_plugin]: 1379, got 3 files
+[warning]	2025-02-21 06:51:21.660911[Thread 0x0000787db1c8dc80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 06:51:21.660974[Thread 0x0000787db1c8dc80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 06:51:21.661001[Thread 0x0000787db1c8dc80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[warning]	2025-02-21 06:51:52.742275[Thread 0x0000787db1c8dc80]:06:51:52: Warning: Error running JavaScript: Unsupported result type

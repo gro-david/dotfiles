@@ -1,0 +1,5 @@
+cargo = [
+    "cargo-update",
+    "fd-find",
+]
+rustup = ["stable-x86_64-unknown-linux-gnu"]

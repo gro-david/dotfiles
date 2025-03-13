@@ -1,0 +1,33 @@
+[warning]	2025-02-21 18:10:24.909201[Thread 0x000070fb8e3f5c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 18:10:24.909247[Thread 0x000070fb8e3f5c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 18:10:24.909258[Thread 0x000070fb8e3f5c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-02-21 18:10:25.559295[Thread 0x000070fb8e3f5c80]:File Metadata/plate_1.png not found from archive
+[warning]	2025-02-21 18:10:25.766405[Thread 0x000070fb8e3f5c80]:18:10:25: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:10:25.771033[Thread 0x000070fb8e3f5c80]:18:10:25: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:10:25.772397[Thread 0x000070fb8e3f5c80]:18:10:25: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:10:25.795063[Thread 0x000070fb8e3f5c80]:18:10:25: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 18:10:26.740578[Thread 0x000070fb8e3f5c80]:connect_server error: network_agent=0x5e10a5e02790, ret=-2
+[warning]	2025-02-21 18:10:27.092492[Thread 0x000070fa737fe6c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download
+[error]	2025-02-21 18:10:28.517705[Thread 0x000070fb8e3f5c80]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:10:43.644546[Thread 0x000070fb8e3f5c80]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:10:51.385063[Thread 0x000070fb8e3f5c80]:File Metadata/plate_1.png not found from archive
+[warning]	2025-02-21 18:11:03.023496[Thread 0x000070faa9fff6c0]:Arrange full params: {"min_obj_distance":0,"accuracy":1.000000,"parallel":1,"allow_rotations":1,"do_final_align":1,"allow_multi_materials_on_same_plate":1,"avoid_extrusion_cali_region":0,"is_seq_print":0,"bed_shrink_x":1.000000,"bed_shrink_y":1.000000,"brim_skirt_distance":0.000000,"clearance_height_to_rod":34.000000,"clearance_height_to_lid":90.000000,"clearance_radius":57.000000,"printable_height":250.000000,
+[error]	2025-02-21 18:11:39.483395[Thread 0x000070f9a37fe6c0]:print_job: send ok.
+[warning]	2025-02-21 18:21:17.023386[Thread 0x000070fb8e3f5c80]:18:21:17: PrinterFileSystem::Reconnect Initializing
+[warning]	2025-02-21 18:21:17.322448[Thread 0x000070fb8e3f5c80]:18:21:17: PrinterFileSystem::Reconnect Connecting
+[warning]	2025-02-21 18:21:17.828591[Thread 0x000070fb8e3f5c80]:18:21:17: PrinterFileSystem::Reconnect Connected
+[error]	2025-02-21 18:21:27.049380[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:27.659740[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:28.009073[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:29.257143[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:29.583842[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:29.937242[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:30.349814[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:30.739030[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:32.131160[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:32.866837[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:32.866849[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_2.png not found from archive
+[error]	2025-02-21 18:21:55.379778[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:55.441899[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[error]	2025-02-21 18:21:55.525462[Thread 0x000070f9a2ffd6c0]:File Metadata/plate_1.png not found from archive
+[warning]	2025-02-21 18:22:23.773183[Thread 0x000070fb8e3f5c80]:18:22:23: PrinterFileSystem::Reconnect close 0

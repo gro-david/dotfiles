@@ -1,0 +1,66 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "hard_tabs": false,
+  "assistant": {
+    "version": "2",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    }
+  },
+  "lsp": {
+    "gdscript": {
+      "binary": {
+        "arguments": ["127.0.0.1", "6005"]
+      }
+    }
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "vim_mode": true,
+  "vim": {
+    // "always": use system clipboard when no register is specified
+    // "never": don't use system clipboard unless "+ or "* is specified
+    // "on_yank": use system clipboard for yank operations when no register is specified
+    "use_system_clipboard": "always",
+    // Let `f` and `t` motions extend across multiple lines
+    "use_multiline_find": true,
+    // Let `f` and `t` motions match case insensitively if the target is lowercase
+    "use_smartcase_find": true,
+    // Use relative line numbers in normal mode, absolute in insert mode
+    // c.f. https://github.com/jeffkreeftmeijer/vim-numbertoggle
+    "toggle_relative_line_numbers": true
+  },
+  "theme": "Catppuccin Mocha",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "ui_font_features": {
+    "fontLigatures": true
+  },
+  "buffer_font_family": "CartographCF Nerd Font",
+  "tab_bar": {
+    "show": false
+  },
+  "auto_indent_on_paste": true
+}

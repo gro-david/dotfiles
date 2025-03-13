@@ -1,0 +1,12 @@
+[warning]	2025-02-21 18:57:47.967904[Thread 0x00007358fb3c8c80]:get_network_function, can not find function bambu_network_del_subscribe
+[warning]	2025-02-21 18:57:47.967989[Thread 0x00007358fb3c8c80]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+[warning]	2025-02-21 18:57:47.968009[Thread 0x00007358fb3c8c80]:get_network_function, can not find function bambu_network_get_profile_3mf
+[error]	2025-02-21 18:57:48.333746[Thread 0x000073573b7fe6c0]:Not primary owner of DBus name - probably another OrcaSlicer instance is running.
+[error]	2025-02-21 18:57:48.333767[Thread 0x000073573b7fe6c0]:Dbus Messages listening terminating.
+[error]	2025-02-21 18:57:48.643255[Thread 0x00007358fb3c8c80]:Unable to open the file/home/macisajt/Downloads/1U Home(1).3mf
+[warning]	2025-02-21 18:57:48.853961[Thread 0x00007358fb3c8c80]:18:57:48: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:57:48.860813[Thread 0x00007358fb3c8c80]:18:57:48: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:57:48.863705[Thread 0x00007358fb3c8c80]:18:57:48: Warning: Error running JavaScript: Unsupported result type
+[warning]	2025-02-21 18:57:48.887338[Thread 0x00007358fb3c8c80]:18:57:48: Warning: Error running JavaScript: Unsupported result type
+[error]	2025-02-21 18:57:49.868002[Thread 0x00007358fb3c8c80]:connect_server error: network_agent=0x638b54febe00, ret=-2
+[warning]	2025-02-21 18:57:50.261134[Thread 0x0000735730ff96c0]:[Orca Updater]: online version=1.9.5.1, current_version=1.9.5.1, no need to download

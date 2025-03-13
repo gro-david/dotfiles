@@ -1,0 +1,6 @@
+arch = [
+	"cloc",
+	"cmatrix",
+	"thefuck",
+	"cowsay",
+]

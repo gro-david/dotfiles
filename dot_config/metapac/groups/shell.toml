@@ -1,0 +1,11 @@
+arch = [
+	"alacritty",
+	"fish",
+	"oh-my-posh-bin",
+	"bat",
+	"git",
+	"github-cli",
+	"marp-cli",
+	"ranger",
+	"speedtest-cli", "htop", "neofetch",
+]

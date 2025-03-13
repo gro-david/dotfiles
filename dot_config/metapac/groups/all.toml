@@ -1,0 +1,5 @@
+arch = [
+    "python-lsp-server",
+    "python-rich",
+]
+

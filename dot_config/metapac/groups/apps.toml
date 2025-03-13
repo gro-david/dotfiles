@@ -1,0 +1,13 @@
+arch = [
+	"feh",
+	"inkscape",
+	"kdeconnect",
+	"mcreator",
+	"mpv",
+	"mupdf",
+	"orca-slicer-bin",
+	"qutebrowser",
+	"spotify-edge",
+	"waydroid",
+	"zen-browser-bin",
+]

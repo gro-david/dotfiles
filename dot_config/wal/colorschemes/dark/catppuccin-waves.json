@@ -1,0 +1,28 @@
+{
+    "checksum": "d566ca6970fd2ccd906b627ed1cffb2e",
+    "wallpaper": "/home/macisajt/.local/share/wallpapers/cat-waves.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0E1B",
+        "foreground": "#c3c2c6",
+        "cursor": "#c3c2c6"
+    },
+    "colors": {
+        "color0": "#0F0E1B",
+        "color1": "#8A77A0",
+        "color2": "#6F8CB0",
+        "color3": "#7AA3CA",
+        "color4": "#978AB6",
+        "color5": "#9FA9D8",
+        "color6": "#CFB0E9",
+        "color7": "#c3c2c6",
+        "color8": "#5e5b70",
+        "color9": "#8A77A0",
+        "color10": "#6F8CB0",
+        "color11": "#7AA3CA",
+        "color12": "#978AB6",
+        "color13": "#9FA9D8",
+        "color14": "#CFB0E9",
+        "color15": "#c3c2c6"
+    }
+}
