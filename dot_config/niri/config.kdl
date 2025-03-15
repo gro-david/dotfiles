@@ -116,11 +116,15 @@ binds {
     Mod+WheelScrollUp cooldown-ms=150 { focus-window-or-workspace-up; }
     Print { screenshot; }
     Shift+Print { screenshot-window; }
-    XF86AudioLowerVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0"; }
-    XF86AudioRaiseVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
+    XF86AudioLowerVolume { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "-5%"; }
+    XF86AudioRaiseVolume { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "+5%"; }
+    XF86AudioMute { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "0"; }
     XF86MonBrightnessDown { spawn "brightnessctl" "set" "5%-"; }
     XF86MonBrightnessUp { spawn "brightnessctl" "set" "+5%"; }
+    XF86Calculator { spawn "alacritty" "-e" "fish" "-c" "wal -Rqn; pcalc -c"; }
+    XF86AudioPlay { spawn "playerctl" "play-pause"; }
+    XF86AudioNext { spawn "playerctl" "next"; }
+    XF86AudioPrev { spawn "playerctl" "previous"; }
 }
 spawn-at-startup "hypridle"
 spawn-at-startup "hyprpaper"

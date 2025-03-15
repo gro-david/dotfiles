@@ -1,4 +1,8 @@
 {
+  "use_nixGL": false,
+  "use_wal": true,
+  "update_interval": 0.2,
+  "device": "wlan0",
   "app_dirs": [],
   "apps": [
     { "env_path": "", "exec": "qutebrowser", "name": "qutebrowser" },
@@ -22,6 +26,7 @@
       "name": "Bluetooth Management"
     },
     { "env_path": "", "exec": "lasso-network", "name": "Network Management" },
-    { "env_path": "", "exec": "htop", "name": "System Monitor" }
+    { "env_path": "", "exec": "htop", "name": "System Monitor" }, 
+    { "env_path": "", "exec": "pcalc -c", "name": "Calculator" }
   ]
 }
