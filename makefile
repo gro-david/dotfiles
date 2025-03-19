@@ -3,6 +3,3 @@ update:
 	git add .
 	git commit -m "Commit on $(shell date '+%Y-%m-%d %H:%M:%S')"
 	git push
-
-test:
-	echo \'$$(date)\'
