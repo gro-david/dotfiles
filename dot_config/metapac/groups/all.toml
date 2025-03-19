@@ -1,5 +1,6 @@
 arch = [
-    "python-lsp-server",
     "python-rich",
+    "python-lsp-server",
+    "mkinitcpio-colors-git",
 ]
 

@@ -3,9 +3,10 @@
   "use_wal": true,
   "update_interval": 0.2,
   "device": "wlan0",
+  "shell": "auto",
   "app_dirs": [],
   "apps": [
-    { "env_path": "", "exec": "qutebrowser", "name": "qutebrowser" },
+    { "exec": "qutebrowser", "name": "qutebrowser" },
     { "env_path": "", "exec": "alacritty -e fish -c ' wal -Rqn; nvim'", "name": "nvim" },
     { "env_path": "", "exec": "alacritty -e fish -c 'wal -Rqn; ranger'", "name": "ranger" },
     { "env_path": "", "exec": "spotify", "name": "Spotify" },

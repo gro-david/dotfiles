@@ -1,6 +1,10 @@
 arch = [
+	"sl",
 	"cloc",
+	"cowsay",
+	"figlet",
+	"lolcat",
 	"cmatrix",
 	"thefuck",
-	"cowsay",
+	"fortune-mod",
 ]

@@ -1,15 +1,15 @@
 arch = [
-	"python-pywal16",
-	"python-pywalfox",
-	"bibata-cursor-theme-bin",
-	"hypridle",
-	"hyprlock",
-	"lasso-launcher",
 	"mako",
 	"niri",
-	"ttf-cascadia-code-nerd",
-	"xdg-desktop-portal-hyprland",
 	"wayclip",
-	"libnotify"
+	"hypridle",
+	"hyprlock",
+	"libnotify",
+	"hyprpaper",
+	"lasso-launcher",
+	"python-pywal16",
+	"python-pywalfox",
+	"ttf-cascadia-code-nerd",
+	"bibata-cursor-theme-bin",
 ]
 
