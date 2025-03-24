@@ -1,6 +1,9 @@
 arch = [
+    "ripgrep",
+    "electron34",
     "python-rich",
     "python-lsp-server",
+    "gnome-themes-extra",
     "mkinitcpio-colors-git",
 ]
 

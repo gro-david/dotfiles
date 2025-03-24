@@ -1,7 +1,7 @@
 arch = [
 	"mako",
-	"niri",
 	"wayclip",
+	"niri-git",
 	"hypridle",
 	"hyprlock",
 	"libnotify",

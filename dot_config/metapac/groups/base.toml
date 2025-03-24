@@ -12,6 +12,7 @@ arch = [
 	"chezmoi",
 	"fprintd",
 	"amd-ucode", 
+	"downgrade",
 	"metapac-bin",
 	"bluez-utils",
 	"brightnessctl",
@@ -19,9 +20,9 @@ arch = [
 	"base", 
 	"base-devel",
 
-	"linux-lts",
+	"linux",
+	"linux-headers",
 	"linux-firmware",
-	"linux-lts-headers",
 
 	"pipewire",
 	"wireplumber", 
