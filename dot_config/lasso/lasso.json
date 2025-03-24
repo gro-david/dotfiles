@@ -4,30 +4,32 @@
   "update_interval": 0.2,
   "device": "wlan0",
   "shell": "auto",
+  "launch_app_not_in_list": true,
   "app_dirs": [],
   "apps": [
     { "exec": "qutebrowser", "name": "qutebrowser" },
-    { "env_path": "", "exec": "alacritty -e fish -c ' wal -Rqn; nvim'", "name": "nvim" },
-    { "env_path": "", "exec": "alacritty -e fish -c 'wal -Rqn; ranger'", "name": "ranger" },
-    { "env_path": "", "exec": "spotify", "name": "Spotify" },
-    { "env_path": "", "exec": "zen-browser", "name": "Zen Browser" },
-    { "env_path": "", "exec": "godot", "name": "Godot Engine" },
-    { "env_path": "", "exec": "zeditor", "name": "Zed Editor" },
-    { "env_path": "", "exec": "orca-slicer", "name": "Orca Slicer" },
-    { "env_path": "", "exec": "waydroid app launch com.mojang.minecraftedu", "name": "Minecraft Education" },
-    { "env_path": "", "exec": "mcreator", "name": "MCreator" }
+    { "exec": "alacritty -e fish -c ' wal -Rqn; nvim'", "name": "nvim" },
+    { "exec": "alacritty -e fish -c 'wal -Rqn; ranger'", "name": "ranger" },
+    { "exec": "spotify", "name": "Spotify" },
+    { "exec": "zen-browser", "name": "Zen Browser" },
+    { "exec": "godot", "name": "Godot Engine" },
+    { "exec": "zeditor", "name": "Zed Editor" },
+    { "exec": "orca-slicer", "name": "Orca Slicer" },
+    { "exec": "waydroid app launch com.mojang.minecraftedu", "name": "Minecraft Education" },
+    { "exec": "mcreator", "name": "MCreator" },
+    { "exec": "alacritty -e fish -c 'wal -Rqn; pcalc -c'", "name": "Calculator"}
   ],
   "dashboard": [
-    { "env_path": "", "exec": "reboot", "name": "Reboot" },
-    { "env_path": "", "exec": "shutdown now", "name": "Shutdown" },
-    { "env_path": "", "exec": "systemctl suspend", "name": "Suspend" },
+    { "exec": "reboot", "name": "Reboot" },
+    { "exec": "shutdown now", "name": "Shutdown" },
+    { "exec": "systemctl suspend", "name": "Suspend" },
     {
-      "env_path": "",
+     
       "exec": "lasso-bluetooth",
       "name": "Bluetooth Management"
     },
-    { "env_path": "", "exec": "lasso-network", "name": "Network Management" },
-    { "env_path": "", "exec": "htop", "name": "System Monitor" }, 
-    { "env_path": "", "exec": "pcalc -c", "name": "Calculator" }
+    { "exec": "lasso-network", "name": "Network Management" },
+    { "exec": "htop", "name": "System Monitor" }, 
+    { "exec": "pcalc -c", "name": "Calculator" }
   ]
 }

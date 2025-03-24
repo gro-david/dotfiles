@@ -23,6 +23,8 @@ input {
     tablet
     touch
     warp-mouse-to-focus
+    mod-key "Alt"
+    mod-key-nested "Super"
 }
 output "Fujitsu Siemens Computers GmbH E24T-7 LED YV8X010824" {
     transform "normal"
@@ -42,10 +44,10 @@ layout {
         top 0
         bottom 0
     }
-    focus-ring { off; }
-    border {
+    border { off; }
+    focus-ring {
         width 4
-        active-gradient angle=45 from="#ddb6f2" relative-to="window" to="#93c9f7"
+        active-gradient angle=45 from="#ff3366" relative-to="workspace-view" to="#e60073"
         inactive-color "#2e2e3e"
     }
     insert-hint { color "rgba(127 200 255 50%)"; }
@@ -55,76 +57,86 @@ layout {
         proportion 0.500000
         proportion 0.666667
     }
-    center-focused-column "never"
+    center-focused-column "on-overflow"
+    always-center-single-column
+    empty-workspace-above-first
 }
 cursor {
     xcursor-theme "Bibata-Modern-Ice"
     xcursor-size 24
 }
 hotkey-overlay { skip-at-startup; }
-environment { DISPLAY ":0"; }
+environment { 
+    DISPLAY ":0";
+}
 binds {
-    Ctrl+Print { screenshot-screen; }
+    // lasso
     Ctrl+Space { spawn "lasso"; }
-    Mod+Alt+E { quit; }
-    Mod+Alt+L { spawn "hyprlock"; }
-    Mod+Alt+P { power-off-monitors; }
+    Mod+W { spawn "lasso" "-m" ":w"; }
+    Mod+E { spawn "lasso" "-m" ":d"; }
+    Mod+B { spawn "lasso" "--bluetooth"; }
+    Mod+N { spawn "lasso" "--network"; }
+    Mod+Return { spawn "alacritty"; }
+
+    Mod+Q { close-window; }
+    Mod+R { switch-preset-column-width; }
+    Mod+T { toggle-column-tabbed-display; }
+    Mod+G { expand-column-to-available-width; }
+    Mod+O { toggle-window-rule-opacity; }
+    Mod+S { focus-tiling; }
+    Mod+D { focus-floating; }
     Mod+C { center-column; }
-    Mod+Comma { consume-window-into-column; }
-    Mod+Ctrl+Down { move-window-down-or-to-workspace-down; }
+    Mod+Tab { focus-window-previous; }
+
+    Mod+F { maximize-column; }
+    Mod+Shift+F { fullscreen-window; }
+    Mod+Ctrl+F { toggle-window-floating; }
+
+    // Focus windows
+    Mod+H { focus-column-left; }
+    Mod+J { focus-window-down; }
+    Mod+K { focus-window-up; }
+    Mod+L { focus-column-right; }
+
+    // Focus workspaces and monitors
+    Mod+Shift+H { focus-monitor-left; }
+    Mod+Shift+J { focus-workspace-down; }
+    Mod+Shift+K { focus-workspace-up; }
+    Mod+Shift+L { focus-monitor-right; }
+
+    // Move windows
     Mod+Ctrl+H { move-column-left-or-to-monitor-left; }
     Mod+Ctrl+J { move-window-down-or-to-workspace-down; }
     Mod+Ctrl+K { move-window-up-or-to-workspace-up; }
     Mod+Ctrl+L { move-column-right-or-to-monitor-right; }
-    Mod+Ctrl+Left { move-column-left-or-to-monitor-left; }
-    Mod+Ctrl+Right { move-column-right-or-to-monitor-right; }
-    Mod+Ctrl+Shift+H { move-column-to-monitor-left; }
-    Mod+Ctrl+Shift+L { move-column-to-monitor-right; }
-    Mod+Ctrl+Shift+Left { move-column-to-monitor-left; }
-    Mod+Ctrl+Shift+Right { move-column-to-monitor-right; }
-    Mod+Ctrl+Up { move-window-up-or-to-workspace-up; }
-    Mod+Ctrl+WheelScrollDown cooldown-ms=150 { move-window-down-or-to-workspace-down; }
-    Mod+Ctrl+WheelScrollLeft cooldown-ms=150 { move-column-left-or-to-monitor-left; }
-    Mod+Ctrl+WheelScrollRight cooldown-ms=150 { move-column-right-or-to-monitor-right; }
-    Mod+Ctrl+WheelScrollUp cooldown-ms=150 { move-window-up-or-to-workspace-up; }
-    Mod+Down { focus-window-or-workspace-down; }
-    Mod+Equal { set-column-width "+10%"; }
-    Mod+F { maximize-column; }
-    Mod+H { focus-column-or-monitor-left; }
-    Mod+J { focus-window-or-workspace-down; }
-    Mod+K { focus-window-or-workspace-up; }
-    Mod+L { focus-column-or-monitor-right; }
-    Mod+R { switch-preset-column-width; }
-    Mod+W { expand-column-to-available-width; }
-    Mod+Left { focus-column-or-monitor-left; }
+
+    // Expel/Consume windows
+    Mod+Super+H { consume-or-expel-window-left; }
+    Mod+Super+L { consume-or-expel-window-right; }
+
+    // Resize Windows
     Mod+Minus { set-column-width "-10%"; }
-    Mod+Period { expel-window-from-column; }
-    Mod+Q { close-window; }
-    Mod+Return { spawn "alacritty"; }
-    Mod+Right { focus-column-or-monitor-right; }
-    Mod+Shift+Equal { set-window-height "+10%"; }
-    Mod+Shift+F { fullscreen-window; }
-    Mod+Shift+H { focus-monitor-left; }
-    Mod+Shift+L { focus-monitor-right; }
-    Mod+Shift+Left { focus-monitor-left; }
+    Mod+Equal { set-column-width "+10%"; }
     Mod+Shift+Minus { set-window-height "-10%"; }
-    Mod+Shift+Right { focus-monitor-right; }
-    Mod+Up { focus-window-or-workspace-up; }
-    Mod+WheelScrollDown cooldown-ms=150 { focus-window-or-workspace-down; }
-    Mod+WheelScrollLeft cooldown-ms=150 { focus-column-or-monitor-left; }
-    Mod+WheelScrollRight cooldown-ms=150 { focus-column-or-monitor-right; }
-    Mod+WheelScrollUp cooldown-ms=150 { focus-window-or-workspace-up; }
+    Mod+Shift+Equal { set-window-height "+10%"; }
+
+    // Session management
+    Super+Shift+Ctrl+L { spawn "hyprlock"; }
+    Super+Shift+Ctrl+P { power-off-monitors; }
+    Super+Shift+Ctrl+Q { quit; }
+    Super+Shift+Ctrl+S { suspend; }
+
+    // Default keyboard behavior
     Print { screenshot; }
-    Shift+Print { screenshot-window; }
-    XF86AudioLowerVolume { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "-5%"; }
-    XF86AudioRaiseVolume { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "+5%"; }
-    XF86AudioMute { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "0"; }
-    XF86MonBrightnessDown { spawn "brightnessctl" "set" "5%-"; }
-    XF86MonBrightnessUp { spawn "brightnessctl" "set" "+5%"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "-5%"; }
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "+5%"; }
+    XF86AudioMute allow-when-locked=true { spawn "pactl" "set-sink-volume" "@DEFAULT_SINK@" "0"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "brightnessctl" "set" "5%-"; }
+    XF86MonBrightnessUp allow-when-locked=true { spawn "brightnessctl" "set" "+5%"; }
+    XF86AudioPlay allow-when-locked=true { spawn "playerctl" "play-pause"; }
+    XF86AudioNext allow-when-locked=true { spawn "playerctl" "next"; }
+    XF86AudioPrev allow-when-locked=true { spawn "playerctl" "previous"; }
     XF86Calculator { spawn "alacritty" "-e" "fish" "-c" "wal -Rqn; pcalc -c"; }
-    XF86AudioPlay { spawn "playerctl" "play-pause"; }
-    XF86AudioNext { spawn "playerctl" "next"; }
-    XF86AudioPrev { spawn "playerctl" "previous"; }
 }
 spawn-at-startup "hypridle"
 spawn-at-startup "hyprpaper"
@@ -136,9 +148,10 @@ window-rule {
     geometry-corner-radius 12.000000 12.000000 12.000000 12.000000
     clip-to-geometry true
     opacity 0.930000
+    draw-border-with-background false
 }
 window-rule {
-	    match title="lasso" app-id="lasso"
+    match title="lasso" app-id="lasso"
     open-floating true
     open-focused true
     min-width 800
@@ -166,4 +179,6 @@ window-rule {
     open-maximized true
     open-fullscreen true
 }
-animations { slowdown 1.000000; }
+animations { 
+    slowdown 1.000000; 
+}

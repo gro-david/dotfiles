@@ -1,5 +1,5 @@
 arch = [
 	"zed",
-	"godot",
+	"godot", "visual-studio-code-bin",
 ]
 
