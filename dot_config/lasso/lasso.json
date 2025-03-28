@@ -4,7 +4,7 @@
   "update_interval": 0.2,
   "device": "wlan0",
   "shell": "auto",
-  "launch_app_not_in_list": true,
+  "execute_commands": true,
   "app_dirs": [],
   "apps": [
     { "exec": "qutebrowser", "name": "qutebrowser" },

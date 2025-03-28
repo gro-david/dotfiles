@@ -9,6 +9,7 @@ arch = [
 	"lasso-launcher",
 	"python-pywal16",
 	"python-pywalfox",
+	"xwayland-satellite",
 	"ttf-cascadia-code-nerd",
 	"bibata-cursor-theme-bin",
 ]

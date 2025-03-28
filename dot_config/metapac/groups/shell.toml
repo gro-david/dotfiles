@@ -1,4 +1,5 @@
 arch = [
+	"zip",
 	"bat",
 	"git",
 	"fish",
