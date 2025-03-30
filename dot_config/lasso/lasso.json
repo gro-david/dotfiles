@@ -4,7 +4,7 @@
   "update_interval": 0.2,
   "device": "wlan0",
   "shell": "auto",
-  "execute_commands": true,
+  "prompt": "| ",
   "app_dirs": [],
   "apps": [
     { "exec": "qutebrowser", "name": "qutebrowser" },
@@ -31,5 +31,8 @@
     { "exec": "lasso-network", "name": "Network Management" },
     { "exec": "htop", "name": "System Monitor" }, 
     { "exec": "pcalc -c", "name": "Calculator" }
-  ]
+  ],
+  "default_commands": {":n": ">"}
+  
+
 }

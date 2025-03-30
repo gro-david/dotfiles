@@ -14,6 +14,7 @@ __all__ = [ basename(f)[:-3] for f in modules if isfile(f) and not f.endswith('_
 # import all hacks the user made
 from . import *
 from .modes import *
+from .commands import *
 
 def get_fallback_top_bar():
 	time_now = time.strftime("%Y-%m-%d %H:%M:%S")
