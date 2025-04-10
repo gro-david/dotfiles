@@ -1,0 +1,6 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+/dev/disk/by-uuid/0EB4992DB49917F3 /mnt/data auto nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=DATA,uid=1000 0 0
+/swapfile none swap defaults 0 0
