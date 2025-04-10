@@ -84,7 +84,7 @@ binds {
     Mod+O { toggle-window-rule-opacity; }
     Mod+S { focus-tiling; }
     Mod+D { focus-floating; }
-    Mod+C { center-column; }
+    Mod+V { center-column; }
     Mod+Tab { focus-window-previous; }
 
     Mod+F { maximize-column; }
@@ -123,9 +123,9 @@ binds {
 
     // resize to presets
     Mod+R { switch-preset-column-width; }
-    Mod+Less { set-column-width "33%"; }
-    Mod+Z { set-column-width "50%"; }
-    Mod+X { set-column-width "66%"; }
+    Mod+Z { set-column-width "33%"; }
+    Mod+X { set-column-width "50%"; }
+    Mod+C { set-column-width "66%"; }
 
     // Session management
     Super+Shift+Ctrl+L { spawn "hyprlock"; }
